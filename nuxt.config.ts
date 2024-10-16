@@ -10,8 +10,9 @@ export default defineNuxtConfig({
         { hid: 'description', name: 'description', content: 'Tim Curtis Designs portfolio page displaying my work and a little info on who I am.' },
       ],
       link: [
+        { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon (1).ico' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap' },
       ],
     },
