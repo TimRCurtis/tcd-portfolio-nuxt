@@ -3,7 +3,7 @@
     <h1 class="font-rubik font-bold pb-8 text-5xl text-tcd-java-400">Projects</h1>
     <div class="flex flex-col">
       <ProjectCard :project="project1" />
-      <ProjectCard :project="project2" reverse="reverse" />
+      <ProjectCard :project="project2" reverse />
     </div>
   </section>
 </template>
