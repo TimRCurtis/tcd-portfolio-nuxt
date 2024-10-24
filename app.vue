@@ -1,15 +1,15 @@
 <template>
-  <body>
-    
-  </body>
   <section class="w-full max-w-7xl mx-auto px-4 md:px-6 py-6">
     <h1 class="font-rubik font-bold pb-8 text-5xl text-tcd-java-400">Projects</h1>
     <div class="flex flex-col">
       <ProjectCard :project="project1" />
       <ProjectCard :project="project2" reverse />
-      <Timeline :items="timelineItems" />
     </div>
   </section>
+  <div class="w-full max-w-7xl mx-auto px-4 md:px-6 py-6">
+    <Timeline :items="timelineItems" />
+  </div>
+  <section class="relative flex flex-col justify-center bg-slate-50 overflow-hidden"></section>
 </template>
 
 <script setup>
