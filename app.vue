@@ -1,4 +1,11 @@
 <template>
+  <header>
+
+  </header>
+  <section>
+    <!-- todo Introduction Section -->
+     <!-- todo Contact Button - mailto:timrcurtisdesigns@gmail.com -->
+  </section>
   <section class="w-full max-w-7xl mx-auto px-4 md:px-6 py-6">
     <h1 class="font-rubik font-bold pb-8 text-5xl text-tcd-java-400">Projects</h1>
     <div class="flex flex-col">
@@ -12,6 +19,8 @@
   <section class="w-full max-w-7xl mx-auto px-4 md:px-6 py-6">
     <EducationSection :educationItems="educationList" />
   </section>
+  <!-- todo Contact Section -->
+  <Footer />
 </template>
 
 <script setup>
