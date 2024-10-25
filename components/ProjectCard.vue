@@ -10,7 +10,7 @@
                 <path :d="svg.path" fill="currentColor" />
             </svg>
             </div>
-            <h5 class="mb-6 text-4xl font-rubik font-bold text-tcd-mariner-600">{{ project.title }}</h5>
+            <h5 class="mb-6 text-4xl font-rubik font-bold text-tcd-mariner-800">{{ project.title }}</h5>
         </div>
             <p class="mb-3 text-slate-500">{{ project.description }}</p>
         </div>

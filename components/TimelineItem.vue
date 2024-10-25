@@ -7,9 +7,9 @@
       <!-- Card -->
       <div :class="['w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)]', reverse ? 'rounded-r-md' : 'rounded-l-md']" class="bg-white p-4 border border-slate-200 shadow">
         <div class="flex items-center justify-between space-x-2 mb-1">
-          <div class="font-bold text-lg text-tcd-mariner-600">
+          <div class="font-bold text-lg text-tcd-mariner-800">
             {{ title }}
-            <div class="text-base text-tcd-mariner-400">{{ subtitle }}</div>
+            <div class="text-base text-tcd-mariner-600">{{ subtitle }}</div>
           </div>
           <time class="font-medium text-sm text-tcd-java-400">{{ date }}</time>
         </div>

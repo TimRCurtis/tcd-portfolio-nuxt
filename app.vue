@@ -14,10 +14,9 @@
     <div class="w-full max-w-7xl mx-auto px-4 md:px-6 py-6">
       <Timeline :items="timelineItems" />
     </div>
-  <section class="w-full max-w-7xl mx-auto px-4 md:px-6 py-6">
-    <EducationSection :educationItems="educationList" />
+  <section>
+    <!-- todo Contact Section ??? -->
   </section>
-  <!-- todo Contact Section ??? -->
   <Footer />
 </template>
 
@@ -83,17 +82,6 @@
       'Used Google Analytics & MOZ reports',
       'Design logos, info graphics, and others used for print and digital'
     ]
-  }
-];
-
-const educationList = [
-  {
-    school: 'Art Institute of York',
-    description: 'BS in Web Design & Interactive Media'
-  },
-  {
-    school: 'Millersville University',
-    description: 'BFA in Graphic Design- 46 credits earned'
   }
 ];
 </script>
