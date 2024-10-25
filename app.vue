@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-  import ProjectCard from '@/components/ProjectCard.vue';
+  import ProjectCard from '~/components/ProjectCard.vue';
   import Timeline from '~/components/Timeline.vue';
   import EducationSection from '~/components/EducationSection.vue';
 
