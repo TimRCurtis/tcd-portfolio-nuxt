@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'T Curtis Designs Portfolio',
+      title: 'Tim Curtis Designs Portfolio',
       meta: [
         { charset: 'utf-8' },
         { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
